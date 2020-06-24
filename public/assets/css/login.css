@@ -1,0 +1,28 @@
+.login__column--img img{
+ height: 100vh;
+ display: none;
+}
+@media screen and (max-width: 780px){
+    .login__column--img{
+        max-height: 25vh;
+        overflow: hidden;
+    }
+    .login__column--img img{
+        height: auto;
+        display: none;
+    }
+}
+
+.home-button{
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+
+.home-button:before{
+    content: "\f190";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
