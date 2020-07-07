@@ -7,7 +7,7 @@
 </head>
 <body>
  <!-- Footer -->
-<footer class="page-footer font-small pt-4">
+<footer class="page-footer font-small">
 
 <div class="container-fluid bg-danger text-light">
 <div class="container py-3 bg-danger">

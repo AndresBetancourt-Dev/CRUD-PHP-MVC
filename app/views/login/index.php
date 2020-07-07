@@ -14,7 +14,7 @@
     
     <div class="p-0 col-sm-12 col-md-6 login__column--img">
       
-    <img class="w-100 login__image" src="<?php echo constant('URL')?>public/assets/img/login/link.jpg" alt=""></div>
+    <img class="w-100 login__image" src="<?php echo constant('URL')?>public/assets/img/login/link.jpg" alt="Legend of Zelda - Landscape"></div>
     <div class="col-sm-12 col-md-6 login__column--form d-flex justify-content-center align-items-center">
     <a class="home-button btn text-dark ml-1" href="<?php echo constant('URL')?>home"> Home</a>
     <form class="mt-5">

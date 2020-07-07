@@ -21,17 +21,17 @@
         <a class="nav-link" href="<?php echo constant('URL')?>home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="<?php echo constant('URL')?>about">About</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="<?php echo constant('URL')?>products" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Products
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item text-light" href="#">Games</a>
-          <a class="dropdown-item text-light" href="#">Consoles</a>
+          <a class="dropdown-item text-light" href="<?php echo constant('URL')?>games">Games</a>
+          <a class="dropdown-item text-light" href="<?php echo constant('URL')?>consoles">Consoles</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item text-light" href="#">Computer Parts</a>
+          <a class="dropdown-item text-light" href="<?php echo constant('URL')?>computers">Computer Parts</a>
         </div>
       </li>
     </ul>
